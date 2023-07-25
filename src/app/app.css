@@ -1,0 +1,25 @@
+.swiper-wrapper {
+  padding-bottom: 40px;
+}
+.swiper-slide {
+  height: 750px;
+  position: relative;
+  overflow: hidden;
+  & > div {
+    height: 100%;
+  }
+}
+.pagination_custom {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.pagination_custom div {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  margin-top: -75px;
+}
